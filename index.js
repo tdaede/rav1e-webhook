@@ -15,7 +15,8 @@ app.post('/hook', function (req, res) {
                                                                     { run_id: run_id,
                                                                       commit: commit,
                                                                       master: true,
-                                                                      key: config.key
+                                                                      key: config.key,
+                                                                      codec: 'rav1e'
                                                                     }});
   }
 });
