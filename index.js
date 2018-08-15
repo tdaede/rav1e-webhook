@@ -7,3 +7,5 @@ app.use(bodyParser.json());
 app.post('/hook', function (req, res) {
   console.log(req.body);
 });
+
+app.listen(5000, () => console.log('Github hook listening on port 5000!'));
