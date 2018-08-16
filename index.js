@@ -16,7 +16,8 @@ app.post('/hook', function (req, res) {
                                                                       commit: commit,
                                                                       master: true,
                                                                       key: config.key,
-                                                                      codec: 'rav1e'
+                                                                      codec: 'rav1e',
+                                                                      task: 'objective-1-fast'
                                                                     }});
   }
 });
